@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  * check_cycle - checks if a singly linked list
- * has a cycle in it
+ * has a cycle in it.
  * @list: linked list
  * Return: an integer
  */
@@ -12,7 +12,7 @@ int check_cycle(listint_t *list)
 
 	while (lts && aux && lts->next)
 	{
-		aux == aux->next;
+		aux = aux->next;
 		lts = lts->next->next;
 		if (aux == lts)
 			return (1);
