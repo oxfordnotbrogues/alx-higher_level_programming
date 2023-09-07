@@ -4,7 +4,6 @@ A function that prints My name is <first name> <last name>
 """
 
 
-
 def say_my_name(first_name, last_name=""):
     """function that print complete name"""
     if type(first_name) != str or first_name == "":
